@@ -5,13 +5,12 @@ type Props = SVGAttributes<SVGSVGElement>
 
 export function Illustration(props: Props) {
   return (
-    <chakra.svg
+    <svg
       width="731"
       height="481"
       viewBox="0 0 731 481"
       fill="none"
-      color="#D1E1DA"
-      _dark={{ color: "#283E35" }}
+      className="home-illustration"
       {...props}
     >
       <path
@@ -143,6 +142,6 @@ export function Illustration(props: Props) {
         d="M517.5 145H453V140H517.5V145Z"
         fill="#41B883"
       />
-    </chakra.svg>
+    </svg>
   )
 }

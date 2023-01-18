@@ -91,7 +91,7 @@ export function Playground(props: PlaygroundProps) {
                   key={key}
                 >
                   <div>{key}</div>
-                  <input
+                  <chakra.input
                     id={key}
                     type="checkbox"
                     defaultChecked={value as any}
