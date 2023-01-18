@@ -1,5 +1,4 @@
 import { SVGAttributes } from "react"
-import { chakra } from "@chakra-ui/system"
 
 type Props = SVGAttributes<SVGSVGElement>
 
@@ -10,7 +9,7 @@ export function Illustration(props: Props) {
       height="481"
       viewBox="0 0 731 481"
       fill="none"
-      className="home-illustration"
+      id="home-illustration"
       {...props}
     >
       <path

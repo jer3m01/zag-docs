@@ -2,10 +2,10 @@
   stroke: currentColor;
 }
 
-.home-illustration {
+#home-illustration {
     color: #D1E1DA;
 }
 
-[data-theme="dark"].home-illustration {
+[data-theme="dark"] #home-illustration {
     color: #283E35;
 }
