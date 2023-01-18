@@ -50,7 +50,7 @@ export function Select(props) {
           minW="200px"
           size="sm"
           className="focus-outline"
-          bg="white"
+          bg="bg-default-subtle"
           _disabled={{
             opacity: 0.6,
           }}
@@ -65,7 +65,7 @@ export function Select(props) {
       <Portal>
         <div {...api.positionerProps}>
           <chakra.ul
-            bg="white"
+            bg="bg-default-subtle"
             width="240px"
             padding="2"
             isolation="isolate"
@@ -81,7 +81,7 @@ export function Select(props) {
                 display="flex"
                 alignItems="center"
                 cursor="pointer"
-                _focus={{ bg: "green.200" }}
+                _focus={{ bg: "bg-primary-subtle" }}
                 key={value}
                 {...api.getOptionProps({ label, value })}
               >

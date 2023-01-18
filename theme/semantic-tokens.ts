@@ -1,5 +1,3 @@
-//(bg|text|border)-(primary|secondary|default)-(subtle|bold)
-
 export const semanticTokens = {
   colors: {
     "bg-default-subtle": {
