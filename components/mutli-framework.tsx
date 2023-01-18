@@ -72,9 +72,7 @@ export function MultiframeworkTabs() {
           flex="1"
           rounded="xl"
           overflow="hidden"
-          _dark={{
-            bg: "gray.900",
-          }}
+          bg="bg-code-block"
           {...api.contentGroupProps}
         >
           <Box {...api.getContentProps({ value: "react" })}>

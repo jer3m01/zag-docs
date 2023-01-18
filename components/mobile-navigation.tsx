@@ -41,7 +41,7 @@ export function MobileNavigation() {
         display={{ base: "inline-flex", lg: "none" }}
         size="sm"
         px="2"
-        _dark={{ bg: "gray.800" }}
+        bg="bg-default-subtle"
         {...api.triggerProps}
       >
         <HStack>
@@ -63,7 +63,7 @@ export function MobileNavigation() {
               zIndex="modal"
               pb="10"
               overflowY="auto"
-              _dark={{ bg: "gray.800" }}
+              bg="bg-default-subtle"
             >
               <Flex
                 justify="space-between"
@@ -75,7 +75,7 @@ export function MobileNavigation() {
                   ref={initialRef}
                   size="sm"
                   px="2"
-                  _dark={{ bg: "gray.800" }}
+                  bg="bg-default-subtle"
                   {...api.closeTriggerProps}
                 >
                   <HStack>

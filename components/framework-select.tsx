@@ -21,7 +21,7 @@ export function FrameworkSelect() {
         id="framework-select"
         fontSize="sm"
         fontWeight="semibold"
-        color="green.500"
+        color="text-primary-bold"
         defaultValue={framework}
         onChange={(event) => {
           const newFramework = event.currentTarget.value as Framework

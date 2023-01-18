@@ -11,7 +11,7 @@ import { MobileNavigation } from "./mobile-navigation"
 export function TopNavigation() {
   return (
     <Box
-      bg="whiteAlpha.900"
+      bg="bg-header"
       backdropFilter="auto"
       backdropBlur="sm"
       position="sticky"
@@ -20,12 +20,8 @@ export function TopNavigation() {
       zIndex={50}
       py="4"
       borderBottomWidth="1px"
-      borderBottomColor="gray.100"
+      borderBottomColor="border-default-subtle"
       overflowX="hidden"
-      _dark={{
-        borderBottomColor: "gray.700",
-        bg: "rgba(26, 32, 44, 0.92)",
-      }}
     >
       <Flex
         align="center"
@@ -45,8 +41,8 @@ export function TopNavigation() {
             letterSpacing="wider"
             fontWeight="semibold"
             display={{ base: "none", sm: "block" }}
+            borderBottomColor="border-default-subtle"
             _dark={{
-              borderBottomColor: "gray.700",
               bg: "orange.900",
               color: "orange.300",
             }}

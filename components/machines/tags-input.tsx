@@ -20,12 +20,11 @@ export function TagsInput(props: any) {
         <label {...api.labelProps}>Enter frameworks:</label>
         <chakra.div
           className="focus-outline"
-          bg="white"
+          bg="bg-default-subtle"
           borderWidth="1px"
           mt="2"
           py="2px"
           px="1"
-          _dark={{ bg: "gray.800" }}
           {...api.controlProps}
         >
           {api.value.map((value, index) => {
@@ -33,12 +32,11 @@ export function TagsInput(props: any) {
             return (
               <span key={index}>
                 <chakra.div
-                  bg="gray.100"
+                  bg="bg-default-bold"
                   px="2"
                   display="inline-block"
                   margin="4px"
-                  _dark={{ bg: "gray.700" }}
-                  _selected={{ bg: "green.200", _dark: { bg: "green.800" } }}
+                  _selected={{ bg: "bg-primary-bold" }}
                   _disabled={{ opacity: 0.6 }}
                   {...api.getTagProps(opt)}
                 >
@@ -61,7 +59,7 @@ export function TagsInput(props: any) {
             px="2"
             placeholder="Add tag..."
             _focus={{ outline: "0" }}
-            _dark={{ bg: "gray.800" }}
+            bg="bg-default-subtle"
             {...api.inputProps}
           />
         </chakra.div>

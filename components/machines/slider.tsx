@@ -34,8 +34,7 @@ export function Slider(props: any) {
           height="4px"
           rounded="full"
           flex="1"
-          bg="gray.300"
-          _dark={{ bg: "gray.600" }}
+          bg="bg-default-bold"
           {...api.trackProps}
         >
           <chakra.div

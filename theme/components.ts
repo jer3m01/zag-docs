@@ -14,26 +14,26 @@ const Button: ComponentStyleConfig = {
   },
   variants: {
     green: {
-      bg: "green.500",
+      bg: "bg-primary-subtle",
       color: "white",
       _hover: {
-        bg: "green.600",
+        bg: "bg-primary-bold",
       },
     },
     outline: {
-      bg: "gray.50",
+      bg: "bg-default-subtle",
       borderWidth: "1px",
       _hover: {
         "&:enabled": {
-          bg: "gray.100",
+          bg: "bg-default-bold",
         },
       },
     },
     black: {
-      bg: "black",
+      bg: "bg-secondary-subtle",
       color: "white",
       _hover: {
-        bg: "gray.900",
+        bg: "bg-secondary-bold",
       },
     },
   },

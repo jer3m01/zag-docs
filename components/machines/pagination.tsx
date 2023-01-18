@@ -82,7 +82,7 @@ const PaginationLink = chakra("a", {
     h: 8,
     textAlign: "center",
     m: "auto 4px",
-    color: "rgba(0, 0, 0, 0.87)",
+    color: "text-default-bold",
     display: "flex",
     boxSizing: "border-box",
     alignItems: "center",
@@ -92,15 +92,12 @@ const PaginationLink = chakra("a", {
     userSelect: "none",
     textDecoration: "none",
     border: "solid 1px",
-    borderColor: "gray.200",
-    bg: "white",
+    borderColor: "border-default-bold",
+    bg: "bg-default-subtle",
 
     _hover: {
-      bg: "rgba(0, 0, 0, 0.04)",
+      bg: "bg-default-bold",
       cursor: "pointer",
-      _dark: {
-        bg: "gray.700",
-      },
     },
     _focus: {
       outline: "2px solid royalblue",
@@ -115,14 +112,6 @@ const PaginationLink = chakra("a", {
 
     _selected: {
       bg: "green.500",
-      color: "white",
-      _dark: {
-        bg: "green.500",
-      },
-    },
-
-    _dark: {
-      bg: "gray.800",
       color: "white",
     },
   },

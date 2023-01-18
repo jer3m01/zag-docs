@@ -18,11 +18,8 @@ export const globalStyles: SystemStyleObject = {
   },
 
   "*": {
-    borderColor: "gray.200",
+    borderColor: "border-default-bold",
     borderStyle: "solid",
-    _dark: {
-      borderColor: "gray.600",
-    },
   },
 
   ".focus-outline": {

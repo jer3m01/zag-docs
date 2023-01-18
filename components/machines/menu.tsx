@@ -29,14 +29,13 @@ export function Menu(props) {
       <Portal>
         <div {...api.positionerProps}>
           <chakra.ul
-            bg="white"
+            bg="bg-default-subtle"
             width="240px"
             padding="2"
             isolation="isolate"
             listStyleType="none"
             shadow="base"
             className="focus-outline"
-            _dark={{ bg: "gray.800" }}
             {...api.contentProps}
           >
             {data.map((item) => (
@@ -46,8 +45,7 @@ export function Menu(props) {
                 cursor="pointer"
                 key={item.value}
                 _focus={{
-                  bg: "green.200",
-                  _dark: { bg: "green.800" },
+                  bg: "bg-primary-bold",
                 }}
                 {...api.getItemProps({ id: item.value })}
               >

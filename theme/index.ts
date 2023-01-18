@@ -3,6 +3,7 @@ import { components } from "./components"
 import { globalStyles } from "./global-styles"
 import { layerStyles } from "./layer-styles"
 import { textStyles } from "./text-styles"
+import { semanticTokens } from "./semantic-tokens"
 
 const theme = {
   ...foundations,
@@ -29,6 +30,7 @@ const theme = {
   layerStyles,
   textStyles,
   components,
+  semanticTokens,
 }
 
 export default theme

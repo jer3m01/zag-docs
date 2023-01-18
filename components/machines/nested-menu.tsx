@@ -55,14 +55,13 @@ export function NestedMenu(props) {
       <Portal>
         <div {...fileMenu.positionerProps}>
           <chakra.ul
-            bg="white"
+            bg="bg-default-subtle"
             width="240px"
             padding="2"
             isolation="isolate"
             listStyleType="none"
             shadow="base"
             className="focus-outline"
-            _dark={{ bg: "gray.800" }}
             {...fileMenu.contentProps}
           >
             {data.map((item) => (
@@ -72,8 +71,7 @@ export function NestedMenu(props) {
                 cursor="pointer"
                 key={item.value}
                 _focus={{
-                  bg: "green.200",
-                  _dark: { bg: "green.800" },
+                  bg: "bg-primary-bold",
                 }}
                 {...fileMenu.getItemProps({ id: item.value })}
               >
@@ -85,8 +83,7 @@ export function NestedMenu(props) {
               py="1"
               cursor="pointer"
               _focus={{
-                bg: "green.200",
-                _dark: { bg: "green.800" },
+                bg: "bg-primary-bold",
               }}
               {...shareMenuTriggerProps}
             >
@@ -102,14 +99,13 @@ export function NestedMenu(props) {
       <Portal>
         <div {...shareMenu.positionerProps}>
           <chakra.ul
-            bg="white"
+            bg="bg-default-subtle"
             width="240px"
             padding="2"
             isolation="isolate"
             listStyleType="none"
             shadow="base"
             className="focus-outline"
-            _dark={{ bg: "gray.800" }}
             {...shareMenu.contentProps}
           >
             {shareMenuData.map((item) => (
@@ -119,8 +115,7 @@ export function NestedMenu(props) {
                 cursor="pointer"
                 key={item.value}
                 _focus={{
-                  bg: "green.200",
-                  _dark: { bg: "green.800" },
+                  bg: "bg-primary-bold",
                 }}
                 {...shareMenu.getItemProps({ id: item.value })}
               >

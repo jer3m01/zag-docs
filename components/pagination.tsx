@@ -26,7 +26,7 @@ export function Pagination(props: StackProps) {
       {prev ? (
         <Link href={prev.url} passHref>
           <Box as="a" rel="prev" flex="1" textAlign="start">
-            <HStack spacing="1" _dark={{ color: "gray.200" }}>
+            <HStack spacing="1" color="text-default-bold">
               <Icon as={HiChevronLeft} />
               <span>Previous</span>
             </HStack>
@@ -41,11 +41,7 @@ export function Pagination(props: StackProps) {
       {next ? (
         <Link href={next.url} passHref>
           <Box as="a" rel="next" flex="1" textAlign="end">
-            <HStack
-              spacing="1"
-              justify="flex-end"
-              _dark={{ color: "gray.200" }}
-            >
+            <HStack spacing="1" justify="flex-end" color="text-default-bold">
               <span>Next</span>
               <Icon as={HiChevronRight} />
             </HStack>

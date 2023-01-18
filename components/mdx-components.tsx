@@ -145,11 +145,8 @@ const components: Record<string, FC<Record<string, any>>> = {
         width="full"
         maxW="768px"
         my="8"
-        bg="hsl(230, 1%, 98%)"
+        bg="bg-code-block"
         rounded="6px"
-        _dark={{
-          bg: "gray.900",
-        }}
         {...api.rootProps}
       >
         <Box {...api.tablistProps}>
@@ -160,15 +157,10 @@ const components: Record<string, FC<Record<string, any>>> = {
               fontSize="sm"
               fontWeight="medium"
               borderBottom="2px solid transparent"
-              _dark={{
-                borderColor: "gray.900",
-              }}
+              bg="bg-code-block"
               _selected={{
-                borderColor: "currentColor",
-                color: "green.500",
-                _dark: {
-                  borderColor: "green.500",
-                },
+                borderColor: "border-primary-subtle",
+                color: "text-primary-bold",
               }}
               _focusVisible={{ outline: "2px solid blue" }}
               {...api.getTriggerProps({ value: framework })}

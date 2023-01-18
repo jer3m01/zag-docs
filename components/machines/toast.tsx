@@ -64,8 +64,7 @@ export function ToastGroup(props: any) {
         <Button
           size="sm"
           variant="outline"
-          bg="white"
-          _dark={{ bg: "gray.800" }}
+          bg="bg-default-subtle"
           onClick={() => {
             id.current = api.create({
               title: "The Evil Rabbit jumped over the fence.",
@@ -79,8 +78,7 @@ export function ToastGroup(props: any) {
         <Button
           size="sm"
           variant="outline"
-          bg="white"
-          _dark={{ bg: "gray.800" }}
+          bg="bg-default-subtle"
           onClick={() => {
             if (!id.current) return
             api.update(id.current, {

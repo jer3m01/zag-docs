@@ -122,16 +122,14 @@ export default function Home() {
 
       <Box
         as="section"
-        bg={{ base: "green.100", md: "unset" }}
+        bg={{ base: "bg-tertiary-bold", md: "unset" }}
         layerStyle="contain"
         my={{ base: "20", md: "32" }}
-        _dark={{ bg: "green.900" }}
       >
         <Box
-          bg="green.100"
+          bg="bg-tertiary-bold"
           px={{ md: "20" }}
           py={{ base: "10", md: "20" }}
-          _dark={{ bg: "green.900" }}
         >
           <chakra.h2 textStyle="display.xl" mb="8" maxW="24ch">
             Zag provides the component API for the Web
@@ -213,14 +211,11 @@ export default function Home() {
             <Box
               width={{ base: "full", xl: "max(640px,80%)" }}
               mx="auto"
-              bg="white"
+              bg="bg-code-block"
               rounded="2xl"
               shadow="base"
               height="full"
               position="relative"
-              _dark={{
-                bg: "gray.900",
-              }}
             >
               <CodeArea slug="website/snippet" />
             </Box>
@@ -260,14 +255,9 @@ export default function Home() {
               layerStyle="blockquote"
               fontWeight="semibold"
               borderLeft="2px"
-              borderColor="gray.200"
-              borderLeftColor="green.500"
-              bg="green.50"
-              _dark={{
-                borderColor: "gray.600",
-                bg: "green.900",
-                borderLeftColor: "green.500",
-              }}
+              borderColor="border-default-bold"
+              borderLeftColor="border-primary-subtle"
+              bg="bg-tertiary-subtle"
             >
               We need a better way to model component logic.
             </chakra.blockquote>
@@ -290,7 +280,7 @@ export default function Home() {
           </chakra.div>
 
           <HStack mt="10" spacing="4">
-            <Circle overflow="hidden" bg="gray.100" _dark={{ bg: "gray.700" }}>
+            <Circle overflow="hidden" bg="bg-default-bold">
               <Image
                 src="/segun-adebayo-headshot.png"
                 width="64px"
@@ -312,20 +302,14 @@ export default function Home() {
 
       <Box
         as="section"
-        bg={{ base: "green.100", md: "unset" }}
+        bg={{ base: "bg-tertiary-bold", md: "unset" }}
         layerStyle="contain"
         my={{ base: "20", md: "32" }}
-        _dark={{
-          bg: { base: "green.900", md: "unset" },
-        }}
       >
         <Box
-          bg="green.100"
+          bg="bg-tertiary-bold"
           px={{ md: "20" }}
           py={{ base: "10", md: "20" }}
-          _dark={{
-            bg: "green.900",
-          }}
         >
           <chakra.h2 textStyle="display.xl" mb="8" maxW="24ch">
             Build your design system with state machines today

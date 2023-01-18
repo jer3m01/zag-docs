@@ -39,10 +39,9 @@ export function Search() {
               width="full"
               maxW="600px"
               rounded="md"
-              bg="white"
+              bg="bg-default-subtle"
               position="relative"
               pointerEvents="auto"
-              _dark={{ bg: "gray.800" }}
               {...dialog_api.contentProps}
             >
               <chakra.h2 srOnly {...dialog_api.titleProps}>
@@ -71,7 +70,7 @@ export function Search() {
                   <chakra.input
                     width="full"
                     outline="0"
-                    _dark={{ bg: "gray.800" }}
+                    bg="bg-default-subtle"
                     {...combobox_api.inputProps}
                   />
                 </Flex>
@@ -93,8 +92,7 @@ export function Search() {
                             px="3"
                             py="1"
                             _selected={{
-                              bg: "green.100",
-                              _dark: { bg: "green.900" },
+                              bg: "bg-primary-subtle",
                             }}
                             display="flex"
                             alignItems="center"

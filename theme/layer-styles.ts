@@ -10,15 +10,11 @@ const blockquote: SystemStyleObject = {
   marginY: "5",
   paddingX: "4",
   paddingY: "3",
-  bg: "green.50",
+  bg: "bg-tertiary-subtle",
   borderWidth: "1px",
-  borderLeftColor: "green.500",
+  borderLeftColor: "border-primary-subtle",
   borderLeftWidth: "2px",
   rounded: "4px",
-  _dark: {
-    bg: "green.900",
-    borderLeftColor: "green.500",
-  },
 }
 
 const inlineCode: SystemStyleObject = {
