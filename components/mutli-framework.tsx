@@ -19,18 +19,12 @@ export function MultiframeworkTabs() {
       height: "120px",
       rounded: "md",
       borderWidth: "1px",
+      borderColor: "border-default-bold",
+      bg: "bg-default-sublte",
       _selected: {
-        bg: "green.50",
+        bg: "bg-tertiary-subtle",
         borderBottomWidth: "4px",
-        borderBottomColor: "green.500",
-        _dark: {
-          bg: "green.900",
-          borderBottomColor: "green.500",
-        },
-      },
-      _dark: {
-        borderColor: "gray.600",
-        bg: "gray.800",
+        borderBottomColor: "vorder-primary-sublte",
       },
     },
   })
