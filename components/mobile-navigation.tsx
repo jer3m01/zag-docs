@@ -59,7 +59,6 @@ export function MobileNavigation() {
               {...api.contentProps}
               position="fixed"
               inset="0"
-              bg="white"
               zIndex="modal"
               pb="10"
               overflowY="auto"
