@@ -10,15 +10,11 @@ export function WorkshopLink() {
       px="3"
       py="1"
       fontSize="sm"
-      color="orange.700"
-      bg="orange.100"
+      color="text-badge"
+      bg="bg-badge"
       align="center"
       href="/creator-workshop"
       className="group"
-      _dark={{
-        bg: "orange.900",
-        color: "orange.300",
-      }}
     >
       <b>Creator's Workshop</b>
       <svg width="2" height="2" fill="currentColor" aria-hidden="true">

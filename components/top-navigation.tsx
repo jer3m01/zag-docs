@@ -33,8 +33,8 @@ export function TopNavigation() {
         <HStack spacing="3">
           <LogoWithLink />
           <Badge
-            bg="orange.100"
-            color="orange.700"
+            color="text-badge"
+            bg="bg-badge"
             px="2"
             py="0.5"
             fontSize="xs"
@@ -42,10 +42,6 @@ export function TopNavigation() {
             fontWeight="semibold"
             display={{ base: "none", sm: "block" }}
             borderBottomColor="border-default-subtle"
-            _dark={{
-              bg: "orange.900",
-              color: "orange.300",
-            }}
           >
             BETA
           </Badge>

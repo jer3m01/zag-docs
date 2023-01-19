@@ -49,8 +49,7 @@ export default function DocsLayout({ children, doc, toc }: DocsLayoutProps) {
               <Box
                 position="sticky"
                 top="0"
-                bg="white"
-                _dark={{ bg: "gray.800" }}
+                bg="bg-default-subtle"
                 pb="8"
               >
                 <Spacer height="10" bg="transparent" />

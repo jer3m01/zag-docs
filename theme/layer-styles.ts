@@ -19,7 +19,7 @@ const blockquote: SystemStyleObject = {
 
 const inlineCode: SystemStyleObject = {
   whiteSpace: "nowrap",
-  bg: "blackAlpha.100",
+  bg: "bg-code-inline",
   rounded: "base",
   paddingY: "0.5",
   paddingX: "1",
@@ -27,9 +27,6 @@ const inlineCode: SystemStyleObject = {
   fontFamily: "mono",
   fontWeight: "semibold",
   color: "pink.600",
-  _dark: {
-    bg: "whiteAlpha.100",
-  },
 }
 
 export const layerStyles = {
