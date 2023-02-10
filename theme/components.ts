@@ -21,11 +21,11 @@ const Button: ComponentStyleConfig = {
       },
     },
     outline: {
-      bg: "bg-default-subtle",
+      bg: "bg-subtle",
       borderWidth: "1px",
       _hover: {
         "&:enabled": {
-          bg: "bg-default-bold",
+          bg: "bg-bold",
         },
       },
     },

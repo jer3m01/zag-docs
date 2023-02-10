@@ -17,7 +17,7 @@ export function PinInput(props: any) {
       <HStack mb="4" {...api.rootProps}>
         {[1, 2, 3].map((_, index) => (
           <chakra.input
-            bg="bg-default-subtle"
+            bg="bg-subtle"
             borderWidth="1px"
             width="50px"
             height="50px"

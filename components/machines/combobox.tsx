@@ -102,7 +102,7 @@ export function Combobox(props: ComboboxProps) {
           display="inline-flex"
           width="300px"
           className="focus-outline"
-          bg="bg-default-subtle"
+          bg="bg-subtle"
           _disabled={{
             opacity: 0.6,
           }}
@@ -111,7 +111,7 @@ export function Combobox(props: ComboboxProps) {
           {...api.controlProps}
         >
           <chakra.input
-            bg="bg-default-subtle"
+            bg="bg-subtle"
             _focus={{ outline: "0" }}
             flex="1"
             p="1"
@@ -133,7 +133,7 @@ export function Combobox(props: ComboboxProps) {
               shadow="base"
               isolation="isolate"
               p="2"
-              bg="bg-default-subtle"
+              bg="bg-subtle"
               {...api.contentProps}
             >
               {options.map((item, index) => (

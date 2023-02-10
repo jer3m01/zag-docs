@@ -55,7 +55,7 @@ export function NestedMenu(props) {
       <Portal>
         <div {...fileMenu.positionerProps}>
           <chakra.ul
-            bg="bg-default-subtle"
+            bg="bg-subtle"
             width="240px"
             padding="2"
             isolation="isolate"
@@ -99,7 +99,7 @@ export function NestedMenu(props) {
       <Portal>
         <div {...shareMenu.positionerProps}>
           <chakra.ul
-            bg="bg-default-subtle"
+            bg="bg-subtle"
             width="240px"
             padding="2"
             isolation="isolate"

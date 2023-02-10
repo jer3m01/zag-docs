@@ -28,7 +28,7 @@ export function Editable(props: any) {
           <Button
             size="sm"
             variant="outline"
-            bg="bg-default-subtle"
+            bg="bg-subtle"
             {...api.editTriggerProps}
           >
             Edit
@@ -42,7 +42,8 @@ export function Editable(props: any) {
             <Button size="sm" variant="outline" {...api.cancelTriggerProps}>
               Cancel
             </Button>
-          Button</HStack>
+            Button
+          </HStack>
         )}
       </div>
     </chakra.div>

@@ -39,7 +39,7 @@ export function Dialog(props: { controls: any }) {
               width="full"
               maxW="400px"
               rounded="md"
-              bg="bg-default-subtle"
+              bg="bg-subtle"
               padding="5"
               position="relative"
               pointerEvents="auto"

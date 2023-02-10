@@ -54,7 +54,7 @@ export function Playground(props: PlaygroundProps) {
       minHeight="24em"
       my="16"
       bg="bg-code-block"
-      borderColor="border-default-subtle"
+      borderColor="border-subtle"
     >
       <Flex
         align="flex-start"
@@ -71,7 +71,7 @@ export function Playground(props: PlaygroundProps) {
         <Comp controls={state} defaultContext={defaultContext} />
       </Flex>
 
-      <Box flexBasis="1px" alignSelf="stretch" bg="bg-default-bold" />
+      <Box flexBasis="1px" alignSelf="stretch" bg="bg-bold" />
 
       <Box width={{ md: "240px" }} fontSize="sm" hidden={isEmpty}>
         <Header>Properties</Header>
@@ -95,7 +95,7 @@ export function Playground(props: PlaygroundProps) {
                     id={key}
                     type="checkbox"
                     defaultChecked={value as any}
-                    bg="bg-default-subtle"
+                    bg="bg-subtle"
                     onChange={(e) => {
                       setState({ ...state, [key]: !value })
                     }}
@@ -116,7 +116,7 @@ export function Playground(props: PlaygroundProps) {
                     id={key}
                     type="text"
                     defaultValue={value as any}
-                    bg="bg-default-subtle"
+                    bg="bg-subtle"
                     onChange={(e) => {
                       setState({ ...state, [key]: e.target.value })
                     }}
@@ -135,7 +135,7 @@ export function Playground(props: PlaygroundProps) {
                     maxWidth="6ch"
                     borderWidth="1px"
                     px="2"
-                    bg="bg-default-subtle"
+                    bg="bg-subtle"
                     defaultValue={state[key] as number}
                     onChange={(e) => {
                       const val = e.currentTarget.valueAsNumber
@@ -156,7 +156,7 @@ export function Playground(props: PlaygroundProps) {
                   borderWidth="1px"
                   fontSize="xs"
                   px="1"
-                  bg="bg-default-subtle"
+                  bg="bg-subtle"
                   defaultValue={state[key] as any}
                   onChange={(e) => {
                     setState((s) => ({ ...s, [key]: e.target.value }))

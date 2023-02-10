@@ -27,6 +27,7 @@ const inlineCode: SystemStyleObject = {
   fontFamily: "mono",
   fontWeight: "semibold",
   color: "pink.600",
+  _dark: { color: "pink.400" },
 }
 
 export const layerStyles = {

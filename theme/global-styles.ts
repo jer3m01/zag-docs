@@ -12,13 +12,11 @@ export const globalStyles: SystemStyleObject = {
     textRendering: "geometricprecision",
     textSizeAdjust: "100%",
     WebkitFontSmoothing: "antialiased",
-    _dark: {
-      bg: "gray.800",
-    },
+    bg: "bg-subtle",
   },
 
   "*": {
-    borderColor: "border-default-bold",
+    borderColor: "border-bold",
     borderStyle: "solid",
   },
 
@@ -39,7 +37,7 @@ export const globalStyles: SystemStyleObject = {
     width: "100%",
     marginY: "8",
     th: {
-      bg: "bg-default-bold",
+      bg: "bg-bold",
     },
     "th, td": {
       borderWidth: "1px",

@@ -38,7 +38,7 @@ export function HoverCard(props: HoverCardProps) {
         <Portal>
           <div {...api.positionerProps}>
             <chakra.div
-              bg="bg-default-subtle"
+              bg="bg-subtle"
               padding="4"
               borderWidth="1px"
               filter="drop-shadow(0 4px 6px rgba(0, 0, 0, 15%))"
@@ -50,7 +50,7 @@ export function HoverCard(props: HoverCardProps) {
             >
               <chakra.div
                 sx={{
-                  "--arrow-background": "bg-default-subtle",
+                  "--arrow-background": "bg-subtle",
                   "--arrow-size": "8px",
                 }}
                 {...api.arrowProps}

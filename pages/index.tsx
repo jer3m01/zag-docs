@@ -255,7 +255,7 @@ export default function Home() {
               layerStyle="blockquote"
               fontWeight="semibold"
               borderLeft="2px"
-              borderColor="border-default-bold"
+              borderColor="border-bold"
               borderLeftColor="border-primary-subtle"
               bg="bg-tertiary-subtle"
             >
@@ -280,7 +280,7 @@ export default function Home() {
           </chakra.div>
 
           <HStack mt="10" spacing="4">
-            <Circle overflow="hidden" bg="bg-default-bold">
+            <Circle overflow="hidden" bg="bg-bold">
               <Image
                 src="/segun-adebayo-headshot.png"
                 width="64px"

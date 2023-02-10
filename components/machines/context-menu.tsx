@@ -19,12 +19,12 @@ export function ContextMenu(props) {
 
   return (
     <div>
-      <chakra.div bg="bg-default-subtle" p="4" {...api.contextTriggerProps}>
+      <chakra.div bg="bg-subtle" p="4" {...api.contextTriggerProps}>
         <div>Open context menu</div>
       </chakra.div>
       <div {...api.positionerProps}>
         <chakra.ul
-          bg="bg-default-subtle"
+          bg="bg-subtle"
           width="240px"
           padding="2"
           isolation="isolate"

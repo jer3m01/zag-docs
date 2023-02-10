@@ -21,11 +21,7 @@ export function Tabs(props: any) {
 
   return (
     <chakra.div width="full" maxW="400px" fontSize="sm">
-      <chakra.div
-        bg="bg-default-subtle"
-        borderBottomWidth="1px"
-        {...api.tablistProps}
-      >
+      <chakra.div bg="bg-subtle" borderBottomWidth="1px" {...api.tablistProps}>
         {data.map((item) => (
           <chakra.button
             py="2"
@@ -46,7 +42,7 @@ export function Tabs(props: any) {
       {data.map((item) => (
         <chakra.div
           padding="4"
-          bg="bg-default-subtle"
+          bg="bg-subtle"
           minHeight="20"
           {...api.getContentProps({ value: item.value })}
           key={item.value}

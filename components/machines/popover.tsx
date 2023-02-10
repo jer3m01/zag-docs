@@ -25,7 +25,7 @@ export function Popover(props: any) {
         <div {...api.positionerProps}>
           <chakra.div
             className="focus-outline"
-            bg="bg-default-subtle"
+            bg="bg-subtle"
             padding="4"
             borderWidth="1px"
             filter="drop-shadow(0 4px 6px rgba(0, 0, 0, 15%))"
@@ -37,7 +37,7 @@ export function Popover(props: any) {
           >
             <chakra.div
               sx={{
-                "--arrow-background": "bg-default-subtle",
+                "--arrow-background": "bg-subtle",
                 "--arrow-size": "8px",
               }}
               {...api.arrowProps}
@@ -55,7 +55,7 @@ export function Popover(props: any) {
               </div>
               <chakra.button
                 className="focus-outline"
-                bg="bg-default-subtle"
+                bg="bg-subtle"
                 px="4"
                 py="2"
                 borderWidth="1px"

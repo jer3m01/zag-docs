@@ -34,7 +34,7 @@ export function Slider(props: any) {
           height="4px"
           rounded="full"
           flex="1"
-          bg="bg-default-bold"
+          bg="bg-bold"
           {...api.trackProps}
         >
           <chakra.div

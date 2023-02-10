@@ -50,7 +50,7 @@ export function Select(props) {
           minW="200px"
           size="sm"
           className="focus-outline"
-          bg="bg-default-subtle"
+          bg="bg-subtle"
           _disabled={{
             opacity: 0.6,
           }}
@@ -65,7 +65,7 @@ export function Select(props) {
       <Portal>
         <div {...api.positionerProps}>
           <chakra.ul
-            bg="bg-default-subtle"
+            bg="bg-subtle"
             width="240px"
             padding="2"
             isolation="isolate"

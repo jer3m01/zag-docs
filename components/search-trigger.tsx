@@ -13,13 +13,13 @@ export const SearchTrigger = forwardRef(
         display="flex"
         alignItems="center"
         gap="2"
-        bg="bg-default-subtle"
+        bg="bg-subtle"
         fontSize="sm"
         py="2"
         pl="2"
         pr="3"
         ring="1px"
-        ringColor="border-default-bold"
+        ringColor="border-bold"
         color="gray.500"
       >
         <Icon as={HiOutlineSearch} fontSize="md" />

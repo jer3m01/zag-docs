@@ -20,7 +20,7 @@ export function TopNavigation() {
       zIndex={50}
       py="4"
       borderBottomWidth="1px"
-      borderBottomColor="border-default-subtle"
+      borderBottomColor="border-subtle"
       overflowX="hidden"
     >
       <Flex
@@ -41,7 +41,7 @@ export function TopNavigation() {
             letterSpacing="wider"
             fontWeight="semibold"
             display={{ base: "none", sm: "block" }}
-            borderBottomColor="border-default-subtle"
+            borderBottomColor="border-subtle"
           >
             BETA
           </Badge>
