@@ -1,5 +1,4 @@
 import { SVGAttributes } from "react"
-import { useColorModeValue } from "@chakra-ui/system"
 
 type Props = SVGAttributes<SVGSVGElement>
 
